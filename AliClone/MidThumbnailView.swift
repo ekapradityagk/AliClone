@@ -26,7 +26,7 @@ struct MidThumbnailView: View {
                         Text("tipe promo")
                         Text("qty sold")
                         Text("jenis")
-                        Text("add infos")
+                        Text("add info")
                     }
                     .font(.system(size: 15))
                     .padding(.leading, 10)
