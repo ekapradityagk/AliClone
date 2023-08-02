@@ -7,6 +7,11 @@
 
 import SwiftUI
 
+var deviceWidth       : CGFloat = UIScreen.main.bounds.width  //768
+var deviceHeight      : CGFloat = UIScreen.main.bounds.height //1004 --> 1024
+var borderWidth     : CGFloat = 0
+
+
 struct ContentView: View {
     var body: some View {
         VStack {

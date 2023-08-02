@@ -14,6 +14,13 @@
 		C3168A6D2A76C7AB006F0498 /* AliCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3168A6C2A76C7AB006F0498 /* AliCloneTests.swift */; };
 		C3168A772A76C7AB006F0498 /* AliCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3168A762A76C7AB006F0498 /* AliCloneUITests.swift */; };
 		C3168A792A76C7AB006F0498 /* AliCloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3168A782A76C7AB006F0498 /* AliCloneUITestsLaunchTests.swift */; };
+		C3168A862A76C7E4006F0498 /* BaseAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3168A852A76C7E4006F0498 /* BaseAppView.swift */; };
+		C3168A882A76D118006F0498 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3168A872A76D117006F0498 /* FeedView.swift */; };
+		C3168A8A2A76D17B006F0498 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3168A892A76D17B006F0498 /* ExploreView.swift */; };
+		C3168A8C2A76D303006F0498 /* PlusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3168A8B2A76D303006F0498 /* PlusView.swift */; };
+		C3168A8E2A797EC3006F0498 /* MiniCarrouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3168A8D2A797EC3006F0498 /* MiniCarrouselView.swift */; };
+		C3168A902A79800D006F0498 /* MiniThumbnailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3168A8F2A79800D006F0498 /* MiniThumbnailView.swift */; };
+		C3168A922A79DF9C006F0498 /* MidThumbnailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3168A912A79DF9C006F0498 /* MidThumbnailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +51,13 @@
 		C3168A722A76C7AB006F0498 /* AliCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AliCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3168A762A76C7AB006F0498 /* AliCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliCloneUITests.swift; sourceTree = "<group>"; };
 		C3168A782A76C7AB006F0498 /* AliCloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliCloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C3168A852A76C7E4006F0498 /* BaseAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAppView.swift; sourceTree = "<group>"; };
+		C3168A872A76D117006F0498 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		C3168A892A76D17B006F0498 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		C3168A8B2A76D303006F0498 /* PlusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusView.swift; sourceTree = "<group>"; };
+		C3168A8D2A797EC3006F0498 /* MiniCarrouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniCarrouselView.swift; sourceTree = "<group>"; };
+		C3168A8F2A79800D006F0498 /* MiniThumbnailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniThumbnailView.swift; sourceTree = "<group>"; };
+		C3168A912A79DF9C006F0498 /* MidThumbnailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidThumbnailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +110,15 @@
 			children = (
 				C3168A5B2A76C7A8006F0498 /* AliCloneApp.swift */,
 				C3168A5D2A76C7A8006F0498 /* ContentView.swift */,
+				C3168A852A76C7E4006F0498 /* BaseAppView.swift */,
+				C3168A872A76D117006F0498 /* FeedView.swift */,
+				C3168A892A76D17B006F0498 /* ExploreView.swift */,
+				C3168A8B2A76D303006F0498 /* PlusView.swift */,
+				C3168A8F2A79800D006F0498 /* MiniThumbnailView.swift */,
+				C3168A912A79DF9C006F0498 /* MidThumbnailView.swift */,
 				C3168A5F2A76C7AB006F0498 /* Assets.xcassets */,
 				C3168A612A76C7AB006F0498 /* Preview Content */,
+				C3168A8D2A797EC3006F0498 /* MiniCarrouselView.swift */,
 			);
 			path = AliClone;
 			sourceTree = "<group>";
@@ -257,8 +278,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3168A882A76D118006F0498 /* FeedView.swift in Sources */,
+				C3168A922A79DF9C006F0498 /* MidThumbnailView.swift in Sources */,
 				C3168A5E2A76C7A8006F0498 /* ContentView.swift in Sources */,
+				C3168A8E2A797EC3006F0498 /* MiniCarrouselView.swift in Sources */,
+				C3168A8C2A76D303006F0498 /* PlusView.swift in Sources */,
+				C3168A862A76C7E4006F0498 /* BaseAppView.swift in Sources */,
 				C3168A5C2A76C7A8006F0498 /* AliCloneApp.swift in Sources */,
+				C3168A902A79800D006F0498 /* MiniThumbnailView.swift in Sources */,
+				C3168A8A2A76D17B006F0498 /* ExploreView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
