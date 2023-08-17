@@ -1,35 +1,46 @@
-//
-//  MiniThumbnailView.swift
-//  AliClone
-//
-//  Created by Aisa Utomo on 02/08/23.
-//
-
 import SwiftUI
 
 struct MiniThumbnailView: View {
+    @ObservedObject var restAPIClient = clsRestAPIClient()
+    
     var body: some View {
-        VStack{
-            VStack{
-                
-            }
-            .frame(width: 160,height: 160)
-            .background(.red)
-            .cornerRadius(15)
-            
-            HStack{
-                VStack(alignment: .leading){
-                    Text("Current Price")
-                    Text("Before Price")
-                    Text("additional info")
+        ScrollView {
+            LazyVStack {
+                ForEach(restAPIClient.Response_GetSimpleItemDataValue.data ?? []) { item in
+                    VStack{
+                        VStack{
+                            
+                        }
+                        .frame(width: 160,height: 160)
+                        .background(.red)
+                        .cornerRadius(15)
+                        
+                        HStack{
+                            VStack(alignment: .leading){
+                                Text(item.itemName ?? "")
+                                    .font(.headline)
+                                Text("Current Price: \(item.price ?? "")")
+                                Text("Before Price: \(item.afterPrice ?? "")")
+                                Text("Additional Info: \(item.additionalInfo ?? "")")
+                            }
+                            
+                            Spacer()
+                        }
+                    }
+                    .frame(width: 160,height: 240)
+                    .padding(.horizontal,5)
                 }
-                
-                Spacer()
             }
         }
-        .frame(width: 160,height: 240)
-        .padding(.horizontal,5)
-
+        .onAppear(perform: loadData)
+    }
+    
+    func loadData() {
+        print("Loading data...")
+        restAPIClient.GetSimpleItemData { response in
+            print("Data loaded:", response)
+            print("Data count:", restAPIClient.Response_GetSimpleItemDataValue.data?.count ?? 0)
+        }
     }
 }
 

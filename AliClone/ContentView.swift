@@ -15,10 +15,17 @@ var borderWidth     : CGFloat = 0
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+//            TestConnectionView()
+            
+//            BaseLoginView()
+            AboUsCresnView()
+            
+//            MiniThumbnailView()
+            
+//            Image(systemName: "globe")
+//                .imageScale(.large)
+//                .foregroundColor(.accentColor)
+//            Text("Hello, world!")
         }
         .padding()
     }

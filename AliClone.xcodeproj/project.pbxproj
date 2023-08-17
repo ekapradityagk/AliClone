@@ -21,6 +21,19 @@
 		C3168A8E2A797EC3006F0498 /* MiniCarrouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3168A8D2A797EC3006F0498 /* MiniCarrouselView.swift */; };
 		C3168A902A79800D006F0498 /* MiniThumbnailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3168A8F2A79800D006F0498 /* MiniThumbnailView.swift */; };
 		C3168A922A79DF9C006F0498 /* MidThumbnailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3168A912A79DF9C006F0498 /* MidThumbnailView.swift */; };
+		C3168A942A79FCF9006F0498 /* IteminCartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3168A932A79FCF9006F0498 /* IteminCartView.swift */; };
+		C3168A962A7A13B5006F0498 /* ItemPageDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3168A952A7A13B5006F0498 /* ItemPageDetailView.swift */; };
+		C33EB2E52A7C2A6200B76F56 /* TestConnectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33EB2E42A7C2A6200B76F56 /* TestConnectionView.swift */; };
+		C33EB2E72A7C9F1600B76F56 /* AppDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33EB2E62A7C9F1600B76F56 /* AppDataModel.swift */; };
+		C33EB2E92A7CA8BE00B76F56 /* ConnectionAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33EB2E82A7CA8BE00B76F56 /* ConnectionAccess.swift */; };
+		C33EB2EB2A7CAC3800B76F56 /* clsRestAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33EB2EA2A7CAC3800B76F56 /* clsRestAPIClient.swift */; };
+		C33EB2EE2A8DE76400B76F56 /* UsPaLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33EB2ED2A8DE76400B76F56 /* UsPaLoginView.swift */; };
+		C33EB2F02A8DF7A300B76F56 /* BaseLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33EB2EF2A8DF7A300B76F56 /* BaseLoginView.swift */; };
+		C33EB2F22A8DFA9800B76F56 /* UsPaRegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33EB2F12A8DFA9700B76F56 /* UsPaRegisterView.swift */; };
+		C33EB2F42A8E1FE900B76F56 /* BaseTestingModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33EB2F32A8E1FE800B76F56 /* BaseTestingModuleView.swift */; };
+		C33EB2F62A8E2A8500B76F56 /* ThirdPartyLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33EB2F52A8E2A8500B76F56 /* ThirdPartyLoginView.swift */; };
+		C33EB2F82A8E3B6200B76F56 /* AboUsCresnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33EB2F72A8E3B6200B76F56 /* AboUsCresnView.swift */; };
+		C33EB2FB2A8E59B800B76F56 /* AboUsFlexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33EB2FA2A8E59B800B76F56 /* AboUsFlexView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +71,19 @@
 		C3168A8D2A797EC3006F0498 /* MiniCarrouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniCarrouselView.swift; sourceTree = "<group>"; };
 		C3168A8F2A79800D006F0498 /* MiniThumbnailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniThumbnailView.swift; sourceTree = "<group>"; };
 		C3168A912A79DF9C006F0498 /* MidThumbnailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidThumbnailView.swift; sourceTree = "<group>"; };
+		C3168A932A79FCF9006F0498 /* IteminCartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IteminCartView.swift; sourceTree = "<group>"; };
+		C3168A952A7A13B5006F0498 /* ItemPageDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemPageDetailView.swift; sourceTree = "<group>"; };
+		C33EB2E42A7C2A6200B76F56 /* TestConnectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestConnectionView.swift; sourceTree = "<group>"; };
+		C33EB2E62A7C9F1600B76F56 /* AppDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDataModel.swift; sourceTree = "<group>"; };
+		C33EB2E82A7CA8BE00B76F56 /* ConnectionAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionAccess.swift; sourceTree = "<group>"; };
+		C33EB2EA2A7CAC3800B76F56 /* clsRestAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clsRestAPIClient.swift; sourceTree = "<group>"; };
+		C33EB2ED2A8DE76400B76F56 /* UsPaLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsPaLoginView.swift; sourceTree = "<group>"; };
+		C33EB2EF2A8DF7A300B76F56 /* BaseLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseLoginView.swift; sourceTree = "<group>"; };
+		C33EB2F12A8DFA9700B76F56 /* UsPaRegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsPaRegisterView.swift; sourceTree = "<group>"; };
+		C33EB2F32A8E1FE800B76F56 /* BaseTestingModuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTestingModuleView.swift; sourceTree = "<group>"; };
+		C33EB2F52A8E2A8500B76F56 /* ThirdPartyLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdPartyLoginView.swift; sourceTree = "<group>"; };
+		C33EB2F72A8E3B6200B76F56 /* AboUsCresnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboUsCresnView.swift; sourceTree = "<group>"; };
+		C33EB2FA2A8E59B800B76F56 /* AboUsFlexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboUsFlexView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +114,11 @@
 		C3168A4F2A76C7A8006F0498 = {
 			isa = PBXGroup;
 			children = (
+				C33EB2EA2A7CAC3800B76F56 /* clsRestAPIClient.swift */,
+				C33EB2E82A7CA8BE00B76F56 /* ConnectionAccess.swift */,
+				C33EB2E62A7C9F1600B76F56 /* AppDataModel.swift */,
+				C33EB2E42A7C2A6200B76F56 /* TestConnectionView.swift */,
+				C3168A952A7A13B5006F0498 /* ItemPageDetailView.swift */,
 				C3168A5A2A76C7A8006F0498 /* AliClone */,
 				C3168A6B2A76C7AB006F0498 /* AliCloneTests */,
 				C3168A752A76C7AB006F0498 /* AliCloneUITests */,
@@ -108,6 +139,7 @@
 		C3168A5A2A76C7A8006F0498 /* AliClone */ = {
 			isa = PBXGroup;
 			children = (
+				C33EB2EC2A8DE6A200B76F56 /* Login Page */,
 				C3168A5B2A76C7A8006F0498 /* AliCloneApp.swift */,
 				C3168A5D2A76C7A8006F0498 /* ContentView.swift */,
 				C3168A852A76C7E4006F0498 /* BaseAppView.swift */,
@@ -116,9 +148,12 @@
 				C3168A8B2A76D303006F0498 /* PlusView.swift */,
 				C3168A8F2A79800D006F0498 /* MiniThumbnailView.swift */,
 				C3168A912A79DF9C006F0498 /* MidThumbnailView.swift */,
+				C3168A932A79FCF9006F0498 /* IteminCartView.swift */,
 				C3168A5F2A76C7AB006F0498 /* Assets.xcassets */,
 				C3168A612A76C7AB006F0498 /* Preview Content */,
 				C3168A8D2A797EC3006F0498 /* MiniCarrouselView.swift */,
+				C33EB2F32A8E1FE800B76F56 /* BaseTestingModuleView.swift */,
+				C33EB2F92A8E598E00B76F56 /* About Us Cresna */,
 			);
 			path = AliClone;
 			sourceTree = "<group>";
@@ -146,6 +181,26 @@
 				C3168A782A76C7AB006F0498 /* AliCloneUITestsLaunchTests.swift */,
 			);
 			path = AliCloneUITests;
+			sourceTree = "<group>";
+		};
+		C33EB2EC2A8DE6A200B76F56 /* Login Page */ = {
+			isa = PBXGroup;
+			children = (
+				C33EB2ED2A8DE76400B76F56 /* UsPaLoginView.swift */,
+				C33EB2F12A8DFA9700B76F56 /* UsPaRegisterView.swift */,
+				C33EB2EF2A8DF7A300B76F56 /* BaseLoginView.swift */,
+				C33EB2F52A8E2A8500B76F56 /* ThirdPartyLoginView.swift */,
+			);
+			path = "Login Page";
+			sourceTree = "<group>";
+		};
+		C33EB2F92A8E598E00B76F56 /* About Us Cresna */ = {
+			isa = PBXGroup;
+			children = (
+				C33EB2F72A8E3B6200B76F56 /* AboUsCresnView.swift */,
+				C33EB2FA2A8E59B800B76F56 /* AboUsFlexView.swift */,
+			);
+			path = "About Us Cresna";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,14 +333,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3168A962A7A13B5006F0498 /* ItemPageDetailView.swift in Sources */,
 				C3168A882A76D118006F0498 /* FeedView.swift in Sources */,
+				C33EB2E72A7C9F1600B76F56 /* AppDataModel.swift in Sources */,
 				C3168A922A79DF9C006F0498 /* MidThumbnailView.swift in Sources */,
+				C33EB2EB2A7CAC3800B76F56 /* clsRestAPIClient.swift in Sources */,
+				C33EB2F02A8DF7A300B76F56 /* BaseLoginView.swift in Sources */,
 				C3168A5E2A76C7A8006F0498 /* ContentView.swift in Sources */,
+				C33EB2F62A8E2A8500B76F56 /* ThirdPartyLoginView.swift in Sources */,
+				C33EB2F42A8E1FE900B76F56 /* BaseTestingModuleView.swift in Sources */,
 				C3168A8E2A797EC3006F0498 /* MiniCarrouselView.swift in Sources */,
+				C33EB2FB2A8E59B800B76F56 /* AboUsFlexView.swift in Sources */,
+				C33EB2F22A8DFA9800B76F56 /* UsPaRegisterView.swift in Sources */,
+				C3168A942A79FCF9006F0498 /* IteminCartView.swift in Sources */,
 				C3168A8C2A76D303006F0498 /* PlusView.swift in Sources */,
 				C3168A862A76C7E4006F0498 /* BaseAppView.swift in Sources */,
 				C3168A5C2A76C7A8006F0498 /* AliCloneApp.swift in Sources */,
+				C33EB2EE2A8DE76400B76F56 /* UsPaLoginView.swift in Sources */,
 				C3168A902A79800D006F0498 /* MiniThumbnailView.swift in Sources */,
+				C33EB2E92A7CA8BE00B76F56 /* ConnectionAccess.swift in Sources */,
+				C33EB2F82A8E3B6200B76F56 /* AboUsCresnView.swift in Sources */,
+				C33EB2E52A7C2A6200B76F56 /* TestConnectionView.swift in Sources */,
 				C3168A8A2A76D17B006F0498 /* ExploreView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
