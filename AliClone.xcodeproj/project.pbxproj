@@ -30,10 +30,24 @@
 		C33EB2EE2A8DE76400B76F56 /* UsPaLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33EB2ED2A8DE76400B76F56 /* UsPaLoginView.swift */; };
 		C33EB2F02A8DF7A300B76F56 /* BaseLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33EB2EF2A8DF7A300B76F56 /* BaseLoginView.swift */; };
 		C33EB2F22A8DFA9800B76F56 /* UsPaRegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33EB2F12A8DFA9700B76F56 /* UsPaRegisterView.swift */; };
-		C33EB2F42A8E1FE900B76F56 /* BaseTestingModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33EB2F32A8E1FE800B76F56 /* BaseTestingModuleView.swift */; };
+		C33EB2F42A8E1FE900B76F56 /* BaseTestspingModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33EB2F32A8E1FE800B76F56 /* BaseTestspingModuleView.swift */; };
 		C33EB2F62A8E2A8500B76F56 /* ThirdPartyLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33EB2F52A8E2A8500B76F56 /* ThirdPartyLoginView.swift */; };
 		C33EB2F82A8E3B6200B76F56 /* AboUsCresnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33EB2F72A8E3B6200B76F56 /* AboUsCresnView.swift */; };
 		C33EB2FB2A8E59B800B76F56 /* AboUsFlexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33EB2FA2A8E59B800B76F56 /* AboUsFlexView.swift */; };
+		C33EB2FD2A8E780900B76F56 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33EB2FC2A8E780900B76F56 /* LogoView.swift */; };
+		C33EB2FF2A8E7B1300B76F56 /* AboUsHistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33EB2FE2A8E7B1300B76F56 /* AboUsHistView.swift */; };
+		C33EB3012A8E7BF400B76F56 /* StructOrgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33EB3002A8E7BF400B76F56 /* StructOrgView.swift */; };
+		C33EB3032A8E7C5F00B76F56 /* TitleWDetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33EB3022A8E7C5E00B76F56 /* TitleWDetView.swift */; };
+		C33EB3082A8E8A5800B76F56 /* GalleryCresnaTNView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33EB3072A8E8A5700B76F56 /* GalleryCresnaTNView.swift */; };
+		C33EB30B2A8EF80600B76F56 /* HomeBaseCresnaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33EB30A2A8EF80600B76F56 /* HomeBaseCresnaView.swift */; };
+		C33EB30D2A8EFAB400B76F56 /* ButtonCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33EB30C2A8EFAB400B76F56 /* ButtonCustomView.swift */; };
+		C33EB30F2A8FA8EA00B76F56 /* BottomMenuCresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33EB30E2A8FA8EA00B76F56 /* BottomMenuCresView.swift */; };
+		C33EB3112A8FB1B400B76F56 /* GalleryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33EB3102A8FB1B300B76F56 /* GalleryDetailView.swift */; };
+		C33EB3132A8FB4BB00B76F56 /* MerchantListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33EB3122A8FB4BB00B76F56 /* MerchantListView.swift */; };
+		C33EB3162A8FB6BC00B76F56 /* MerchantThumbCresnaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33EB3152A8FB6BC00B76F56 /* MerchantThumbCresnaView.swift */; };
+		C33EB3182A8FBECE00B76F56 /* ProfileCresnaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33EB3172A8FBECE00B76F56 /* ProfileCresnaView.swift */; };
+		C33EB31A2A8FC2C100B76F56 /* TopProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33EB3192A8FC2C100B76F56 /* TopProfileView.swift */; };
+		C33EB31C2A8FC38800B76F56 /* UserDetailCresnaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33EB31B2A8FC38800B76F56 /* UserDetailCresnaView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,10 +94,24 @@
 		C33EB2ED2A8DE76400B76F56 /* UsPaLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsPaLoginView.swift; sourceTree = "<group>"; };
 		C33EB2EF2A8DF7A300B76F56 /* BaseLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseLoginView.swift; sourceTree = "<group>"; };
 		C33EB2F12A8DFA9700B76F56 /* UsPaRegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsPaRegisterView.swift; sourceTree = "<group>"; };
-		C33EB2F32A8E1FE800B76F56 /* BaseTestingModuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTestingModuleView.swift; sourceTree = "<group>"; };
+		C33EB2F32A8E1FE800B76F56 /* BaseTestspingModuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTestspingModuleView.swift; sourceTree = "<group>"; };
 		C33EB2F52A8E2A8500B76F56 /* ThirdPartyLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdPartyLoginView.swift; sourceTree = "<group>"; };
 		C33EB2F72A8E3B6200B76F56 /* AboUsCresnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboUsCresnView.swift; sourceTree = "<group>"; };
 		C33EB2FA2A8E59B800B76F56 /* AboUsFlexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboUsFlexView.swift; sourceTree = "<group>"; };
+		C33EB2FC2A8E780900B76F56 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		C33EB2FE2A8E7B1300B76F56 /* AboUsHistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboUsHistView.swift; sourceTree = "<group>"; };
+		C33EB3002A8E7BF400B76F56 /* StructOrgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructOrgView.swift; sourceTree = "<group>"; };
+		C33EB3022A8E7C5E00B76F56 /* TitleWDetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleWDetView.swift; sourceTree = "<group>"; };
+		C33EB3072A8E8A5700B76F56 /* GalleryCresnaTNView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCresnaTNView.swift; sourceTree = "<group>"; };
+		C33EB30A2A8EF80600B76F56 /* HomeBaseCresnaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBaseCresnaView.swift; sourceTree = "<group>"; };
+		C33EB30C2A8EFAB400B76F56 /* ButtonCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCustomView.swift; sourceTree = "<group>"; };
+		C33EB30E2A8FA8EA00B76F56 /* BottomMenuCresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomMenuCresView.swift; sourceTree = "<group>"; };
+		C33EB3102A8FB1B300B76F56 /* GalleryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryDetailView.swift; sourceTree = "<group>"; };
+		C33EB3122A8FB4BB00B76F56 /* MerchantListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerchantListView.swift; sourceTree = "<group>"; };
+		C33EB3152A8FB6BC00B76F56 /* MerchantThumbCresnaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerchantThumbCresnaView.swift; sourceTree = "<group>"; };
+		C33EB3172A8FBECE00B76F56 /* ProfileCresnaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCresnaView.swift; sourceTree = "<group>"; };
+		C33EB3192A8FC2C100B76F56 /* TopProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopProfileView.swift; sourceTree = "<group>"; };
+		C33EB31B2A8FC38800B76F56 /* UserDetailCresnaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailCresnaView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +167,7 @@
 		C3168A5A2A76C7A8006F0498 /* AliClone */ = {
 			isa = PBXGroup;
 			children = (
+				C33EB3092A8EF7DC00B76F56 /* Cresna */,
 				C33EB2EC2A8DE6A200B76F56 /* Login Page */,
 				C3168A5B2A76C7A8006F0498 /* AliCloneApp.swift */,
 				C3168A5D2A76C7A8006F0498 /* ContentView.swift */,
@@ -152,8 +181,7 @@
 				C3168A5F2A76C7AB006F0498 /* Assets.xcassets */,
 				C3168A612A76C7AB006F0498 /* Preview Content */,
 				C3168A8D2A797EC3006F0498 /* MiniCarrouselView.swift */,
-				C33EB2F32A8E1FE800B76F56 /* BaseTestingModuleView.swift */,
-				C33EB2F92A8E598E00B76F56 /* About Us Cresna */,
+				C33EB2F32A8E1FE800B76F56 /* BaseTestspingModuleView.swift */,
 			);
 			path = AliClone;
 			sourceTree = "<group>";
@@ -199,8 +227,46 @@
 			children = (
 				C33EB2F72A8E3B6200B76F56 /* AboUsCresnView.swift */,
 				C33EB2FA2A8E59B800B76F56 /* AboUsFlexView.swift */,
+				C33EB2FC2A8E780900B76F56 /* LogoView.swift */,
+				C33EB2FE2A8E7B1300B76F56 /* AboUsHistView.swift */,
+				C33EB3002A8E7BF400B76F56 /* StructOrgView.swift */,
+				C33EB3022A8E7C5E00B76F56 /* TitleWDetView.swift */,
+				C33EB30E2A8FA8EA00B76F56 /* BottomMenuCresView.swift */,
 			);
 			path = "About Us Cresna";
+			sourceTree = "<group>";
+		};
+		C33EB3062A8E8A2700B76F56 /* Galery Cresna */ = {
+			isa = PBXGroup;
+			children = (
+				C33EB3072A8E8A5700B76F56 /* GalleryCresnaTNView.swift */,
+				C33EB3102A8FB1B300B76F56 /* GalleryDetailView.swift */,
+			);
+			path = "Galery Cresna";
+			sourceTree = "<group>";
+		};
+		C33EB3092A8EF7DC00B76F56 /* Cresna */ = {
+			isa = PBXGroup;
+			children = (
+				C33EB2F92A8E598E00B76F56 /* About Us Cresna */,
+				C33EB3062A8E8A2700B76F56 /* Galery Cresna */,
+				C33EB30A2A8EF80600B76F56 /* HomeBaseCresnaView.swift */,
+				C33EB30C2A8EFAB400B76F56 /* ButtonCustomView.swift */,
+				C33EB3142A8FB69200B76F56 /* Merchant Cresna */,
+				C33EB3172A8FBECE00B76F56 /* ProfileCresnaView.swift */,
+				C33EB3192A8FC2C100B76F56 /* TopProfileView.swift */,
+				C33EB31B2A8FC38800B76F56 /* UserDetailCresnaView.swift */,
+			);
+			path = Cresna;
+			sourceTree = "<group>";
+		};
+		C33EB3142A8FB69200B76F56 /* Merchant Cresna */ = {
+			isa = PBXGroup;
+			children = (
+				C33EB3122A8FB4BB00B76F56 /* MerchantListView.swift */,
+				C33EB3152A8FB6BC00B76F56 /* MerchantThumbCresnaView.swift */,
+			);
+			path = "Merchant Cresna";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -334,14 +400,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3168A962A7A13B5006F0498 /* ItemPageDetailView.swift in Sources */,
+				C33EB3012A8E7BF400B76F56 /* StructOrgView.swift in Sources */,
+				C33EB31C2A8FC38800B76F56 /* UserDetailCresnaView.swift in Sources */,
 				C3168A882A76D118006F0498 /* FeedView.swift in Sources */,
 				C33EB2E72A7C9F1600B76F56 /* AppDataModel.swift in Sources */,
+				C33EB31A2A8FC2C100B76F56 /* TopProfileView.swift in Sources */,
 				C3168A922A79DF9C006F0498 /* MidThumbnailView.swift in Sources */,
 				C33EB2EB2A7CAC3800B76F56 /* clsRestAPIClient.swift in Sources */,
+				C33EB30B2A8EF80600B76F56 /* HomeBaseCresnaView.swift in Sources */,
+				C33EB3082A8E8A5800B76F56 /* GalleryCresnaTNView.swift in Sources */,
 				C33EB2F02A8DF7A300B76F56 /* BaseLoginView.swift in Sources */,
+				C33EB2FD2A8E780900B76F56 /* LogoView.swift in Sources */,
 				C3168A5E2A76C7A8006F0498 /* ContentView.swift in Sources */,
+				C33EB3162A8FB6BC00B76F56 /* MerchantThumbCresnaView.swift in Sources */,
+				C33EB3032A8E7C5F00B76F56 /* TitleWDetView.swift in Sources */,
 				C33EB2F62A8E2A8500B76F56 /* ThirdPartyLoginView.swift in Sources */,
-				C33EB2F42A8E1FE900B76F56 /* BaseTestingModuleView.swift in Sources */,
+				C33EB2F42A8E1FE900B76F56 /* BaseTestspingModuleView.swift in Sources */,
 				C3168A8E2A797EC3006F0498 /* MiniCarrouselView.swift in Sources */,
 				C33EB2FB2A8E59B800B76F56 /* AboUsFlexView.swift in Sources */,
 				C33EB2F22A8DFA9800B76F56 /* UsPaRegisterView.swift in Sources */,
@@ -349,9 +423,15 @@
 				C3168A8C2A76D303006F0498 /* PlusView.swift in Sources */,
 				C3168A862A76C7E4006F0498 /* BaseAppView.swift in Sources */,
 				C3168A5C2A76C7A8006F0498 /* AliCloneApp.swift in Sources */,
+				C33EB30F2A8FA8EA00B76F56 /* BottomMenuCresView.swift in Sources */,
 				C33EB2EE2A8DE76400B76F56 /* UsPaLoginView.swift in Sources */,
 				C3168A902A79800D006F0498 /* MiniThumbnailView.swift in Sources */,
+				C33EB2FF2A8E7B1300B76F56 /* AboUsHistView.swift in Sources */,
+				C33EB3112A8FB1B400B76F56 /* GalleryDetailView.swift in Sources */,
+				C33EB3132A8FB4BB00B76F56 /* MerchantListView.swift in Sources */,
 				C33EB2E92A7CA8BE00B76F56 /* ConnectionAccess.swift in Sources */,
+				C33EB30D2A8EFAB400B76F56 /* ButtonCustomView.swift in Sources */,
+				C33EB3182A8FBECE00B76F56 /* ProfileCresnaView.swift in Sources */,
 				C33EB2F82A8E3B6200B76F56 /* AboUsCresnView.swift in Sources */,
 				C33EB2E52A7C2A6200B76F56 /* TestConnectionView.swift in Sources */,
 				C3168A8A2A76D17B006F0498 /* ExploreView.swift in Sources */,

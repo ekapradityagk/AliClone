@@ -8,7 +8,7 @@
 import SwiftUI
 
 enum ViewMode{
-    case half
+    case quarter
     case full
 }
 
@@ -24,8 +24,8 @@ struct AboUsFlexView<Content: View>: View {
     
     private func calculateOffset() -> CGFloat{
         switch viewMode.wrappedValue{
-        case .half:
-            return UIScreen.main.bounds.height/2
+        case .quarter:
+            return UIScreen.main.bounds.height/3 - 50
         case.full:
             return 0
         }
@@ -41,13 +41,13 @@ struct AboUsFlexView<Content: View>: View {
 
 struct AboUsFlexView_Previews: PreviewProvider {
     static var previews: some View {
-        AboUsFlexView(viewMode: .constant(.half)) {
+        AboUsFlexView(viewMode: .constant(.quarter)) {
             VStack{
                 Text("test")
             }
             .frame(maxWidth: .infinity,maxHeight: .infinity)
             .background(.cyan)
-            .clipShape(RoundedRectangle(cornerRadius: 10,style: .continuous))
+            .clipShape(RoundedRectangle(cornerRadius: 20,style: .continuous))
         }
     }
 }

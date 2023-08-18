@@ -18,7 +18,7 @@ struct ContentView: View {
 //            TestConnectionView()
             
 //            BaseLoginView()
-            AboUsCresnView()
+            HomeBaseCresnaView()
             
 //            MiniThumbnailView()
             
